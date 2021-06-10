@@ -1,10 +1,19 @@
 # The-Social-Network-Analysis
 
-The purpose of the project is to generate a basic sociogram and interpret centrality measures and clustering procedures from it. 
+The purpose of the project is to generate a basic sociogram and interpret centrality measures and clustering procedures from it. SNA resolves relational information as additional fields that can be included in the model. These exported key performance indicators measure an individual's social characteristics. Combining these social attributes with individual-based measurements provides a better overview of the individual, thus improving the predictive accuracy of the model.
 
 ![image](https://user-images.githubusercontent.com/70576346/121510691-7a9cf800-ca1a-11eb-954b-bfd6c21da5ee.png)
 
 It depicts the network structure of nodes and bonds, edges, or connections to them to investigate social structures. It allows us to find some of the most characteristic origins (nodes).
+
+#Practical Use
+  -Accurately market people and recommend personalized goods and services.
+  -cutting off the key nodes in the network can effectively stop the spread of infectious diseases.
+  -Identify fraud groups in the Internet financial industry and make anti-fraud predictions.
+
+After dividing social networks, you can accurately market people and recommend personalized goods and services, such as JD.com;
+The spread of disease is also spread outward by a central point, cutting off the key nodes in the network can effectively stop the spread of infectious diseases;
+Identify fraud groups in the Internet financial industry and make anti-fraud predictions;
 
 ![image](https://user-images.githubusercontent.com/70576346/121362326-99db4d00-c968-11eb-8444-097b99286f10.png)
 
