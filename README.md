@@ -7,6 +7,7 @@ The purpose of the project is to generate a basic sociogram and interpret centra
 It depicts the network structure of nodes and bonds, edges, or connections to them to investigate social structures. It allows us to find some of the most characteristic origins (nodes).
 
 #Practical Use
+  
   -Accurately market people and recommend personalized goods and services.
   -cutting off the key nodes in the network can effectively stop the spread of infectious diseases.
   -Identify fraud groups in the Internet financial industry and make anti-fraud predictions.
