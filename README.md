@@ -29,15 +29,23 @@ https://user-images.githubusercontent.com/70576346/121371009-ca72b500-c96f-11eb-
 ![image](https://user-images.githubusercontent.com/70576346/121510336-1b3ee800-ca1a-11eb-95a3-fd955bcea22e.png)
 
   Degree Centrality
+  
 Degree centrality is defined as the number of links to events on a node. For "best friends ", more central students were more popular. So according to these figures shown in the video, we can intuitively find out the students who have the highest Closeness value. Based on the number list shown in the video, we can see that student 8 has a high sort position among students.
 
 The first three csv files are obtained that list the students' digital evaluation forms of their relationships. I can model the composition of these data with 'plot.igraph'. And they can get a straight classification of sort based on degree. It is important to note that the algorithm of the standardized score is 18/(29-1)=0.64 for student 8 in my calculation.
   
   -Closeness Centrality
+  
 Student 21 has the highest closeness centrality in "bestfriends" network. Student 14 and 16 have the highest closeness centrality in the "geton" measure. Student 21 has the highest closeness centrality in "workwith" network. 
 
+
+
   -Betweeness Centrality
+  
 represents how essential a vertice is in the network. Vertices with high degrees of betweeness can have considerable impact in the network because they control the transmission of information between other vertices. On the other hand, "degree centrality" suggests how popular a node is within the social network.
+
+# Data Wrangling
+
 
 
   -Citation:
