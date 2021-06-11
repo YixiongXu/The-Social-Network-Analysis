@@ -38,11 +38,13 @@ The first three csv files are obtained that list the students' digital evaluatio
   
 Student 21 has the highest closeness centrality in "bestfriends" network. Student 14 and 16 have the highest closeness centrality in the "geton" measure. Student 21 has the highest closeness centrality in "workwith" network. 
 
-
+I found some duplicate numbers while looking at the data tables of the outputs. This shows that some students have very similar social networks -- they are people in the same circle.
 
   -Betweeness Centrality
   
 represents how essential a vertice is in the network. Vertices with high degrees of betweeness can have considerable impact in the network because they control the transmission of information between other vertices. On the other hand, "degree centrality" suggests how popular a node is within the social network.
+
+
 
 # Data Wrangling
 
