@@ -44,10 +44,23 @@ I found some duplicate numbers while looking at the data tables of the outputs. 
   
 represents how essential a vertice is in the network. Vertices with high degrees of betweeness can have considerable impact in the network because they control the transmission of information between other vertices. On the other hand, "degree centrality" suggests how popular a node is within the social network.
 
+# Visualization
 
+![image](https://user-images.githubusercontent.com/70576346/121697250-74347c00-caff-11eb-8e7c-ef91d2db7a92.png)
+
+As I notice in the picture, except for the marginal student25, student18, most of the students have close internal connections. They can be called a cluster. Unlike csv file "bestfriends", in the field of "geton", most students are in a whole cluster.
 
 # Data Wrangling
 
+![image](https://user-images.githubusercontent.com/70576346/121693096-6250da00-cafb-11eb-88a0-65aef86baf06.png)
+
+Find the right data set on the ICON website, model it with spot.igraph, and then derive intuitive high-frequency words and center words by dyad_census and cliques instructions, and more.
+
+# Limitations
+
+- There are not enough data samples.
+
+- The social connections given by students are somewhat subjective.
 
 
   -Citation:
