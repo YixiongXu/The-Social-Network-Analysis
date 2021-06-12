@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/70576346/121371009-ca72b500-c96f-11eb-
 
 ![image](https://user-images.githubusercontent.com/70576346/121510336-1b3ee800-ca1a-11eb-95a3-fd955bcea22e.png)
 
-  Degree Centrality
+  -Degree Centrality
   
 Degree centrality is defined as the number of links to events on a node. For "best friends ", more central students were more popular. So according to these figures shown in the video, we can intuitively find out the students who have the highest Closeness value. Based on the number list shown in the video, we can see that student 8 has a high sort position among students.
 
@@ -48,7 +48,11 @@ represents how essential a vertice is in the network. Vertices with high degrees
 
 ![image](https://user-images.githubusercontent.com/70576346/121697250-74347c00-caff-11eb-8e7c-ef91d2db7a92.png)
 
-As I notice in the picture, except for the marginal student25, student18, most of the students have close internal connections. They can be called a cluster. Unlike csv file "bestfriends", in the field of "geton", most students are in a whole cluster.
+As I notice in the picture, except for the marginal student25, student18, most of the students have close internal connections. Unlike csv file "bestfriends", in the field of "geton", most students are in a unified cluster.
+
+![image](https://user-images.githubusercontent.com/70576346/121760847-6ca4bf80-cb5f-11eb-8ade-63ce485127f7.png)
+
+I realized in this diagram that participants had a much clearer understanding of "workwith" than "bestfriends". So popular node has only a few, and they are all in the same cluster. 
 
 # Data Wrangling
 
@@ -56,19 +60,46 @@ As I notice in the picture, except for the marginal student25, student18, most o
 
 Find the right data set on the ICON website, model it with spot.igraph, and then derive intuitive high-frequency words and center words by dyad_census and cliques instructions, and more.
 
+![image](https://user-images.githubusercontent.com/70576346/121763905-19883800-cb72-11eb-81a0-cdeacb679edd.png)
+
+Start by turning the dataset into the direect graphs with nodes and dots.
+
+![image](https://user-images.githubusercontent.com/70576346/121763912-26a52700-cb72-11eb-96e9-d1a644e3cd69.png)
+
+The graph is further sorted to arrive at the arrangement of students in different categories.
+
+![image](https://user-images.githubusercontent.com/70576346/121764186-9b796080-cb74-11eb-998a-ca0a04e1a025.png)
+
+Excerpts of a particular centrality variable can also produce sorted data list.
+
+![image](https://user-images.githubusercontent.com/70576346/121764216-e5624680-cb74-11eb-91c2-a1aed45ce1e6.png)
+
+Use dyad census to find mutual connections, non-mutual connections, and no connect pairs in the SNA.
+
+![image](https://user-images.githubusercontent.com/70576346/121764338-bc8e8100-cb75-11eb-95b1-5f3f292fbace.png)
+
+After pre-processing and cleaning up the data, these command processes provide a full arrangement and graph.
+
 # Limitations
 
 - There are not enough data samples.
 
 - The social connections given by students are somewhat subjective.
 
+- Social network analysis is too considering the "contact" of social networks, not considering various "isolated points". So it is difficult to fully grasp the full picture of social networks.
 
-  -Citation:
+- It pays too much attention to the structure mode of social network -- too much static analysis and lack of dynamic analysis.
+
+- The SNA pays too much attention to the formal analysis of social network, neglecting the content and nature of it (Political and cultural functions and their own purposes).
+
+- Interoperability.
+
+# Citation:
+  
+Hanneman, R. & Riddle, M. (2005). Introduction to Social Network Methods. Riverside, CA: University of California, Riverside
 
 Christakis, N. A., Fowler, J. H., Imbens, G. W., & Kalyanaraman, K. (2010). An empirical model for strategic network formation (No. w16039).
 
 Uetake, K. (2014). Estimating a model of strategic network formation and its effects on performance: An application to the US venture capital markets.Unpublished manuscript, Yale School of Management.
 
 Sheng, S. (2020). A structural econometric analysis of network formation games through subnetworks.Econometrica,88(5), 1829-1858.Molinari, F. (2020). 
-
-Microeconometrics with Partial Identification.arXiv preprint arXiv:2004.11751.
